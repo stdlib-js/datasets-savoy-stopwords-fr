@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-savoy-stopwords-fr",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A list of French stop words.",
   "license": "Apache-2.0",
   "author": {
