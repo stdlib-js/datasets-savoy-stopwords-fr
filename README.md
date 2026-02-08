@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import stopwords from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-savoy-stopwords-fr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-savoy-stopwords-fr/tags). For example,
+
+```javascript
 import stopwords from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-savoy-stopwords-fr@v0.2.3-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ var list = stopwords();
 
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import stopwords from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-savoy-stopwords-fr@v0.2.3-esm/index.mjs';
+import stopwords from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-savoy-stopwords-fr@esm/index.mjs';
 
 var list = stopwords();
 var len = list.length;
