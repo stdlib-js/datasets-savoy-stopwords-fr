@@ -1,7 +1,0 @@
-
-Usage: savoy-stopwords-fr [options]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
